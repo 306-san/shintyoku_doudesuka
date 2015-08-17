@@ -1,0 +1,50 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "base";
+
+div.cell-half{
+  margin-top: 20px;
+  height: 100px;
+  width: 70%;
+  border-bottom: 1px solid #ffffff;
+  border-left: 5px solid #FF9933;
+  .text{
+    float: left;
+    margin-left: 20px;
+    font-size: 50px;
+    bottom: 0px;
+  }
+  li{
+    vertical-align: text-bottom;
+    list-style: none;
+    font-size: 20px;
+  }
+  .figure{
+    float: right;
+    font-size: 60px;
+  }
+}
+
+div.cell{
+  margin-top: 20px;
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+  border-left: 5px solid #FF9933;
+  .text{
+    float: left;
+    margin-left: 20px;
+    font-size: 50px;
+    bottom: 0px;
+  }
+  li{
+    vertical-align: text-bottom;
+    list-style: none;
+    font-size: 20px;
+  }
+  .figure{
+    float: right;
+    font-size: 60px;
+  }
+}

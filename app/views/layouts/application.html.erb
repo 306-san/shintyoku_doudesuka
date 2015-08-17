@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<header>
+  <div class="logo">WiSTP</div>
+  <div class="setumei">進捗管理システム <li>Work in Process Tracking System</li></div>
+  <div class="version"><p>version: 0.0.1β</div>
+  <div class="task_running"><p>進捗実行中</div>
+</header>
+<body>
+  <nav>
+    <li>ホーム</li>
+    <li>新規進捗</li>
+    <li>進捗一覧</li>
+    <li>統計</li>
+    <li>監視者情報</li>
+    <li>設定</li>
+    <li>ログアウト</li>
+  </nav>
+
+<%= yield %>
+
+</body>
+</html>
