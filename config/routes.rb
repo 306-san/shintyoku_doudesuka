@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'tasks/index'
+
+  get 'tasks/show'
+
+  get 'tasks/create'
+
   get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
